@@ -11,6 +11,7 @@ body {
   font-family:'Transformers Movie';
    /*'Source Code Pro', monospace, 'Droid Sans Mono', monospace, 'Overpass Mono', monospace, 'Armata', sans-serif, 'Anaheim', 		  sans-serif, 'Nova Square', cursive;*/
   font-size: 22px;
+  font-weight: bold;
 }
 
 .logo {
@@ -40,6 +41,7 @@ a:hover {
 }
 
 /* HEADER */
+
 
 .logout{
   position: absolute;

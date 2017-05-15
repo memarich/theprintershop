@@ -18,13 +18,13 @@ require_once("funciones.php");
     <link href="font/Transformers Movie.ttf" rel='stylesheet' type='text/css'>
 
     <link href="https://fonts.googleapis.com/css?family=Anaheim|Armata|Averia+Sans+Libre|Averia+Serif+Libre|Bungee|Bungee+Hairline|Cantarell|Droid+Sans+Mono|Exo+2|Gruppo|Julius+Sans+One|Nova+Square|Overlock+SC|Overpass+Mono|Play|Quantico|Share+Tech+Mono|Source+Code+Pro" rel="stylesheet">
-  	<link href="images/logo-02.png" rel="shortcut icon">
+  	<link href="images/rgb.png" rel="shortcut icon">
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
   </head>
   <body>
 
     <header class="main-header">
-
+      
       <!-- Coloque el login y registro por ahora aqui ********************* -->
       <?php if(!estaLogueado()){ ?>
           <form class="login" action="acceso.php" method="post">
