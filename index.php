@@ -22,9 +22,14 @@ require_once("funciones.php");
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
   </head>
   <body>
-
+    <div style="
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);">
+    </div>
     <header class="main-header">
-      
+
       <!-- Coloque el login y registro por ahora aqui ********************* -->
       <?php if(!estaLogueado()){ ?>
           <form class="login" action="acceso.php" method="post">
@@ -105,27 +110,27 @@ require_once("funciones.php");
    <section class="about-section">
     <div class="container">
     <img src="images/printers-01.png" width="1171" height="431" class="img-responsive">
-<p>Posicionada en la ciudad autónoma de Buenos Aires, <strong>CABACOPIER</strong>, es una empresa argentina orientada a brindar soluciones de manejo de documentos, tanto en impresión, digitalización, reproducción y finalización de documentos. <strong>CABACOPIER</strong>, distribuidor oficial de las principales marcas de fotocopiadoras del mercado: <strong>Canon, Xerox y Ricoh</strong> ofrece además, una amplia gama de insumos, repuestos y software. También contamos con un grupo de trabajo formado por profesionales del rubro de la impresión que les brindarán un amplio conocimiento y soporte en sus proyectos tanto personales como empresariales.</p>
+<p>Posicionada en la ciudad autónoma de Buenos Aires, <strong>THE PRINTER SHOP</strong>, es una empresa argentina orientada a brindar soluciones de manejo de documentos, tanto en impresión, digitalización, reproducción y finalización de documentos. <strong>THE PRINTER SHOP</strong>, distribuidor oficial de las principales marcas de fotocopiadoras del mercado: <strong>Canon, Xerox y Ricoh</strong> ofrece además, una amplia gama de insumos, repuestos y software. También contamos con un grupo de trabajo formado por profesionales del rubro de la impresión que les brindarán un amplio conocimiento y soporte en sus proyectos tanto personales como empresariales.</p>
 
-      <h2>Visión:</h2>
+      <h2 style="color: #FFF;">Visión:</h2>
       <p>Ser el mayor proveedor de equipos de impresión, repuestos e insumos de la ciudad de Buenos Aires.</p>
 
-      <h2>Misión:</h2>
+      <h2 style="color: #FFF;">Misión:</h2>
       <p>Seguir proveyendo equipos y repuestos de la más alta calidad, cuidando siempre el medio ambiente.
       Crear un ambiente de trabajo estimulante, creativo y agradable; para la participación y desempeño del personal, dentro de un marco apropiado.</p>
 
-      <h2>Valores:</h2>
+      <h2 style="color: #FFF;">Valores:</h2>
       <p>Estos valores fundamentales definen nuestra identidad y conducta:</p>
 
       <ul>
 
-          <li><h3>Ética comercial:</h3> Quienes trabajamos en CABACOPIER. tenemos el compromiso de cumplir con las más altas normas de conducta comercial en nuestras relaciones con nuestros compañeros, clientes y proveedores.</li>
+          <li style="color: #FFF;"><h3>Ética comercial:</h3> Quienes trabajamos en CABACOPIER. tenemos el compromiso de cumplir con las más altas normas de conducta comercial en nuestras relaciones con nuestros compañeros, clientes y proveedores.</li>
 
-          <li><h3>Compromiso:</h3> Concebimos una gestión basada en la mejora continua, estimulando la integración, el esfuerzo y la contribución de toda la compañía.</li>
+          <li style="color: #FFF;"><h3>Compromiso:</h3> Concebimos una gestión basada en la mejora continua, estimulando la integración, el esfuerzo y la contribución de toda la compañía.</li>
 
-          <li><h3>Confianza:</h3> Construimos relaciones basadas en el respeto personal y profesional, brindando respaldo y seguridad a todos nuestros clientes.</li>
+          <li style="color: #FFF;"><h3>Confianza:</h3> Construimos relaciones basadas en el respeto personal y profesional, brindando respaldo y seguridad a todos nuestros clientes.</li>
 
-          <li><h3>Cuidado del medio ambiente:</h3> Promover la responsabilidad medio ambiental en todos los niveles tanto dentro de la compañía como fuera de ella.
+          <li style="color: #FFF;"><h3>Cuidado del medio ambiente:</h3> Promover la responsabilidad medio ambiental en todos los niveles tanto dentro de la compañía como fuera de ella.
           </li>
       </ul>
     </div>

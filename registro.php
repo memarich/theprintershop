@@ -117,6 +117,12 @@ if ($_POST){
   </head>
 
   <body>
+    <div style="
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);">
+    </div>
    <header class="main-header">
     <div class="container">
       <a href="index.php"><img src="images/logo-02.png" width="367" height="80" class="logo"></a>

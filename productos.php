@@ -24,6 +24,12 @@ require_once("funciones.php");
   </head>
 
   <body>
+    <div style="
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);">
+    </div>
    <header class="main-header">
      <!-- Coloque el login y registro por ahora aqui ********************* -->
      <?php if(!estaLogueado()){ ?>

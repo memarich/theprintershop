@@ -23,6 +23,12 @@ require_once("funciones.php");
   </head>
 
   <body>
+    <div style="
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);">
+    </div>
    <header class="main-header">
      <!-- Coloque el login y registro por ahora aqui ********************* -->
      <?php if(!estaLogueado()){ ?>
@@ -85,7 +91,24 @@ require_once("funciones.php");
    <section class="contact-section">
     <div class="container">
 
-      <h1>Por consultas, puede escribir a:<br>consultas@cabacopier.com</h1>
+      <h1 style="color:#FFF;">Por consultas, puede escribir a:<br>info@theprintershop.com.ar</h1>
+<br>
+<br>
+<form class="contacto" action="index.html" method="post">
+  <input type="text" name="nombre" value="Nombre y Apellido">
+  <br>
+  <input type="text" name="telefono" value="Telefono">
+  <br>
+  <input type="text" name="empresa" value="Empresa">
+  <br>
+  <input type="text" name="mensaje" value="mensaje">
+  <br>
+  <br>
+  <input type="submit" name="" value="enviar">
+</form>
+
+
+
 
     </div>
    </section>

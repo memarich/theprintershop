@@ -24,6 +24,12 @@ require_once("funciones.php");
   </head>
 
   <body>
+    <div style="
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);">
+    </div>
    <header class="main-header">
      <!-- Coloque el login y registro por ahora aqui ********************* -->
      <?php if(!estaLogueado()){ ?>
@@ -89,7 +95,7 @@ require_once("funciones.php");
       <h1>Preguntas frecuentes</h1>
 
       <article class="question-article">
-        <h2>¿Cómo compro en la página de CABASUR?</h2>
+        <h2>¿Cómo compro en la página de THE PRINTER SHOP?</h2>
         <p>El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicero son también reproducidas en su forma original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H. Rackham.</p>
       </article>
       <article class="question-article">
